@@ -1,0 +1,1 @@
+Projeto de finalização do módulo de Bootstrap do curso da OneBitCode, desenvolvido com React e TypeScript, Sass e Bootstrap.
