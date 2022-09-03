@@ -1,4 +1,4 @@
-import { BsGithub, BsInstagram, BsLinkedin, BsYoutube } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsYoutube } from "react-icons/bs";
 
 const socialIcons = [
   {

@@ -7,11 +7,14 @@ footer
 
         a
             display: block
+
             background-color: transparent
             border-radius: .4rem
             padding: .15rem .35rem
+
             text-decoration: none
             color: white
+
             transition: 200ms
 
             &:hover
@@ -20,4 +23,50 @@ footer
 
     small
         font-size: .75rem
-        opacity: .5
+        color: $copy-footer
+
+        transition: 200ms
+
+        &:hover
+            color: $hover-link
+
+@media screen and ( min-width: 425px )
+
+@media screen and (min-width: 768px)
+    footer small
+        display: block
+        margin-bottom: 2rem
+
+        font-size: 1rem
+
+    a
+        margin-top: 1rem
+        svg
+            width: 20px
+            height: 20px
+
+@media screen and (min-width: 1024px)
+    footer small
+        display: block
+        margin-block: 2rem
+
+        font-size: 1.2rem
+
+    a
+        margin-block: 2rem -1rem
+        svg
+            width: 25px
+            height: 25px
+
+@media screen and (min-width: 1240px)
+    footer small
+        display: block
+        margin-block: 2rem
+
+        font-size: 1.5rem
+
+    a
+        margin-block: 2rem -1rem
+        svg
+            width: 30px
+            height: 30px

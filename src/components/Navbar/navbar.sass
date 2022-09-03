@@ -1,9 +1,23 @@
 nav
-    margin-inline: auto
-
     .nav-link
         font-weight: 500
 
     a img
-        width: 100%
-        max-width: 170px
+        width: 175px
+
+@media screen and (min-width: 425px)
+    nav
+        a img
+            width: 240px
+
+@media screen and (min-width: 768px)
+    nav
+        a img
+            width: 280px
+
+@media screen and (min-width: 1024px)
+    nav
+        .nav-link
+            font-weight: bold
+        a img
+            width: 300px

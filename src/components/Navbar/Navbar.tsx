@@ -5,8 +5,8 @@ import Logo from "../../assets/logo-obc-dark.webp";
 export function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-transparent pt-4">
-        <div className="container-fluid">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-transparent pt-4 mx-auto">
+        <div className="container">
           <Link className="navbar-brand" to="/">
             <img src={Logo} alt="logo-onebitcode" />
           </Link>
@@ -22,7 +22,7 @@ export function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className=" collapse navbar-collapse text-bg- text-end"
+            className=" collapse navbar-collapse text-end"
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">

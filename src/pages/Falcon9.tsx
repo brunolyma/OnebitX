@@ -1,4 +1,4 @@
-import { Section } from "../components/Section/Section";
+import { SectionFalcon } from "../components/Sections/SectionFalcon";
 
 import FalconBg from "../assets/falcon9/01.webp";
 import Sec02 from "../assets/falcon9/02.webp";
@@ -14,6 +14,7 @@ import Sec11 from "../assets/falcon9/11.webp";
 import Sec12 from "../assets/falcon9/12.webp";
 import Sec13 from "../assets/falcon9/13.webp";
 import Sec14 from "../assets/falcon9/14.webp";
+import { Services } from "../components/Services";
 
 const sectionContent = [
   {
@@ -58,8 +59,9 @@ export function Falcon9() {
     <>
       {sectionContent &&
         sectionContent.map((section) => (
-          <Section key={section.id} sec={section} />
+          <SectionFalcon key={section.id} sec={section} />
         ))}
+      <Services />
     </>
   );
 }

@@ -1,4 +1,4 @@
-import { BrowserRouter, Outlet } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import AOS from "aos";
 
 import { Router } from "../Router";

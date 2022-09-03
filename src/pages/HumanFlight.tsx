@@ -1,4 +1,4 @@
-import { Section } from "../components/Section/Section";
+import { SectionHuman } from "../components/Sections/SectionHuman";
 
 import HumanFliBg from "../assets/humanFlight/01.webp";
 import Sec02 from "../assets/humanFlight/02.webp";
@@ -6,6 +6,7 @@ import Sec03 from "../assets/humanFlight/03.webp";
 import Sec04 from "../assets/humanFlight/04.webp";
 import Sec05 from "../assets/humanFlight/05.webp";
 import ArrowGif from "../assets/humanFlight/arrowDown.gif";
+import { Services } from "../components/Services";
 
 const sectionContent = [
   {
@@ -50,8 +51,10 @@ export function HumanFlight() {
     <>
       {sectionContent &&
         sectionContent.map((section) => (
-          <Section key={section.id} sec={section} />
+          <SectionHuman key={section.id} sec={section} />
         ))}
+
+      <Services />
     </>
   );
 }

@@ -1,6 +1,6 @@
 @import "./common/colors"
 
-@import "../components/Section/section"
+@import "../components/Sections/section"
 @import "../components/Navbar/navbar"
 @import "../components/Footer/footer"
 
@@ -10,6 +10,12 @@ body
     font-family: 'Roboto', sans-serif
     color: white
 
-.wrapper
+main
     min-width: 320px
-    padding-inline: .75rem
+
+.wrapper
+    margin-inline: auto
+
+@media screen and (min-width: 425px)
+    // .wrapper
+    //     padding-inline: 2rem

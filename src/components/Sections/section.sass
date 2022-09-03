@@ -1,0 +1,78 @@
+section
+    height: 100vh
+
+    background-size: cover
+    background-position: center
+
+.header
+    padding: 6.5rem .75rem 0
+
+    h2
+        font-size: 1.7rem
+    h5
+        margin-top: 1rem
+    h2, h5
+        text-shadow: 1px 1px 3px black
+    button
+        border-width: 2px
+
+    .arrowDown
+        img
+            display: block
+            height: 5rem
+            margin: 3rem auto 0
+
+.services
+    padding: 15rem .8rem
+    a
+        text-decoration: none
+        color: white
+    span
+        opacity: .5
+        &:hover
+            opacity: .9
+    button
+        width: 78%
+        margin-inline: auto
+
+        border-width: 2px
+
+@media screen and ( min-width: 425px )
+    nav, .header
+        width: 90%
+    .header
+        padding-top: 8rem
+    section.services
+        width: 80%
+        margin-inline: auto
+
+@media screen and (min-width: 768px)
+    nav, .header
+        width: 85%
+    .header
+        padding-top: 12rem
+        h2
+            font-size: 2.5rem
+
+    section.services
+        width: 75%
+        height: 70vh
+        margin-inline: auto
+        button.btn
+            width: 30%
+            margin-inline: auto
+
+@media screen and (min-width: 1024px)
+    nav, .header
+        width: 75%
+    .header
+        padding-top: 15rem
+        h5
+            font-size: 1.5rem
+        h2
+            font-size: 2.8rem
+
+    section.services
+        width: 76%
+        height: 50vh
+        margin-inline: auto
