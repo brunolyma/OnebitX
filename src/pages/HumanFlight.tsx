@@ -49,10 +49,10 @@ const sectionContent = [
 export function HumanFlight() {
   return (
     <>
-      {sectionContent &&
+      {/* {sectionContent &&
         sectionContent.map((section) => (
           <SectionHuman key={section.id} sec={section} />
-        ))}
+        ))} */}
 
       <Services />
     </>

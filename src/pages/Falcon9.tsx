@@ -57,10 +57,10 @@ const sectionContent = [
 export function Falcon9() {
   return (
     <>
-      {sectionContent &&
+      {/* {sectionContent &&
         sectionContent.map((section) => (
           <SectionFalcon key={section.id} sec={section} />
-        ))}
+        ))} */}
       <Services />
     </>
   );
