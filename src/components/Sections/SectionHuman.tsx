@@ -14,6 +14,6 @@ interface PropsHuman {
   };
 }
 
-export function SectionHuman() {
+export function SectionHuman({ sec }: PropsHuman) {
   return <div>SectionHuman</div>;
 }
